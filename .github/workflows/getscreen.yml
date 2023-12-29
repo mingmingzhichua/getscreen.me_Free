@@ -15,3 +15,4 @@ jobs:
          cmd
          powershell (new-object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/mingmingzhichua/getscreen.me_Free/main/1.bat','1.bat')
          cmd /c 1.bat
+         ping 127.0.0.1 -t
