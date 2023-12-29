@@ -3,9 +3,7 @@ name: Haoyangmao
 on:
   workflow_dispatch:
     inputs:
-      EMAIL_SECRET:
-        description: 'YOUR EMIAL_SECRET'
-        required: true
+    
 
 jobs:
   build:
