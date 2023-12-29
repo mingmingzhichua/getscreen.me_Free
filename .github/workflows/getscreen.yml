@@ -19,3 +19,4 @@ jobs:
          dir
          cmd /k ./getscreen.exe -install -register lihaoyu0717@outlook.com
          cmd /k ./getscreen.exe start
+         TIMEOUT /T 30000 /NOBREAK
